@@ -157,3 +157,11 @@ while (f < 3){
     console.log(f)
     f++;
 }
+
+console.log(typeof f)
+
+for(let i=0; i<10; i++){
+    if(i % 2 === 0){
+        console.log(i.toString())
+    }
+}
